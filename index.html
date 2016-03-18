@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Redirecting</title>
+<script type="text/javascript">
+ 
+var urls = new Array("http://www.google.com/", "http://www.yahoo.com/");
+ 
+function redirect()
+{
+window.location = urls[Math.floor(urls.length*Math.random())];
+}
+ 
+var temp = setInterval("redirect()", 0000);
+ 
+</script>
+</head>
+<body>
+redirecting
+</body>
+</html>
